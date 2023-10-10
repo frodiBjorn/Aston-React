@@ -1,7 +1,12 @@
 import "./App.css";
+import ClassForm from "./components/ClassForm/ClassForm";
 
 function App() {
-  return <></>;
+  return (
+    <div className="App">
+      <ClassForm />
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,27 @@
+.form {
+  margin: 0 auto;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.form_input {
+  font-size: 1.2rem;
+}
+.form_input:focus {
+  outline: 2px solid #5649e8;
+}
+
+button {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 150px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #7e74f4;
+}
