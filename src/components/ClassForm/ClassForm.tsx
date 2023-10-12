@@ -28,6 +28,18 @@ class ClassForm extends React.Component<object, IFormState> {
   componentWillUnmount() {
     console.log("Component Will Unmount");
   }
+  shouldComponentUpdate() {
+    console.log("Should Component Update");
+    return true;
+  }
+  getSnapshotBeforeUpdate() {
+    console.log("Get Snapshot Before Update");
+    return null;
+  }
+  static getDerivedStateFromProps() {
+    console.log("Get Derived State From Props");
+    return {};
+  }
 
   handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ inputValue: e.target.value });
