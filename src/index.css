@@ -9,6 +9,10 @@ body {
   color: #fff
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   cursor: pointer;
 }

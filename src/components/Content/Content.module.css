@@ -1,8 +1,19 @@
 .content {
-
   margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 5px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  padding: 10px;
+  border: 2px solid rgb(236, 80, 80);
+  text-align: center;
 }
