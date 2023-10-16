@@ -51,7 +51,7 @@ class ClassForm extends React.Component<object, IFormState> {
   };
   handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value;
-    const isDisabled = inputValue !== "реакт";
+    const isDisabled = inputValue === "реакт";
     this.setState({ inputValue, isDisabled });
   };
 
